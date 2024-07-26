@@ -12,7 +12,7 @@ I named this project "Simple Products" due to the naming of the bonus assignment
 
 ## Usage
 
-To try this project out, just click (a href) here for the deployed site.
+To try this project out, just click <a href='https://headstarter-project-page.vercel.app/' target='_blank' rel='noopener noreferrer'> here</a> for the deployed site.
 
 ## Contact
 
