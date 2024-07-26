@@ -10,6 +10,8 @@ import {
   HiUserAdd,
   HiUserRemove,
 } from "react-icons/hi";
+import { signIn } from "next-auth/react";
+import { redirect } from "next/navigation";
 
 const SideBar = () => {
   return (
@@ -34,13 +36,10 @@ const SideBar = () => {
           <span className="font-bold hidden lg:inline w-fit">Home</span>
         </Link>
 
-        <Link
-          href="/"
-          className="flex items-center gap-3 py-2 px-3 rounded hover:text-primaryRed hover:bg-gray-100 dark:hover:text-gray-200 dark:hover:bg-neutral-800 transition duration-200"
-        >
+        <button className="flex items-center gap-3 py-2 px-3 rounded hover:text-primaryRed hover:bg-gray-100 dark:hover:text-gray-200 dark:hover:bg-neutral-800 transition duration-200">
           <HiUserAdd className="w-7 h-7" />
           <span className="font-bold hidden lg:inline w-fit">SignIn</span>
-        </Link>
+        </button>
       </div>
     </div>
   );
