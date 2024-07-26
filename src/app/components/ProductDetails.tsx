@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { fetchProductById } from "../productsFetch";
 import { Product } from "../components/ProductsCard";
@@ -10,6 +10,7 @@ import { HiArrowCircleLeft } from "react-icons/hi";
 
 const ProductDetails: React.FC = () => {
   const { id } = useParams();
+  const router = useRouter();
   const [product, setProduct] = useState<Product | null>();
   useEffect(() => {
     const fetchProduct = async () => {
@@ -41,7 +42,11 @@ const ProductDetails: React.FC = () => {
   return (
     <>
       <div className="absolute bg-white pl-2 pr-3 py-1 rounded-3xl top-8 left-48 hover:bg-neutral-200 transition duration-300">
-        <button className="flex items-center text-xl gap-1 font-semibold">
+        <button
+          type="button"
+          onClick={() => router.push("/")}
+          className="flex items-center text-xl gap-1 font-semibold"
+        >
           <HiArrowCircleLeft className="w-8 h-8 opacity-80" />
           Go Back
         </button>
