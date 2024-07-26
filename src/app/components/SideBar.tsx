@@ -1,17 +1,14 @@
-"use client";
-
-import { useState, useEffect } from "react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SiteLogo from "../../../public/logos/site-logo.webp";
-import {
-  HiHome,
-  HiDotsHorizontal,
-  HiUserAdd,
-  HiUserRemove,
-} from "react-icons/hi";
-import { signIn } from "next-auth/react";
-import { redirect } from "next/navigation";
+import { HiHome, HiUserRemove } from "react-icons/hi";
+
+export const metadata: Metadata = {
+  title: "Simple Products",
+  description:
+    "Simple Products is a NextJS mobile responsive and dynamic product page. It features simple animations, and dynamic rendering via conditional statements.  Other features include TailwindCSS and Fake Store API",
+};
 
 const SideBar = () => {
   return (

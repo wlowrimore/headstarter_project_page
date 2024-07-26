@@ -5,8 +5,9 @@ import "./globals.css";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Headstarter Products",
-  description: "description",
+  title: "Simple Products",
+  description:
+    "Simple Products is a NextJS mobile responsive and dynamic product page. It features simple animations, and dynamic rendering via conditional statements.  Other features include TailwindCSS and Fake Store API",
 };
 
 export default function RootLayout({

@@ -29,14 +29,6 @@ const ProductDetails: React.FC = () => {
     return <div>Loading...</div>;
   }
 
-  function extractTitleBeforeComma(title: string): string {
-    const commaIndex = title.indexOf(",");
-    if (commaIndex !== -1) {
-      return title.substring(0, commaIndex);
-    }
-    return title;
-  }
-
   const shortenedTitle = product.title.split(",")[0];
 
   return (

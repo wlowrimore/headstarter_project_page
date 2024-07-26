@@ -21,7 +21,6 @@ export async function fetchProductById(id: number): Promise<Product | null> {
       return null;
     }
     const data = await response.json();
-    console.log("Fetched product data:", data);
     return data;
   } catch (error) {
     console.error(error);

@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bonus Project for Headstarters Week 1
 
-## Getting Started
+## Description
 
-First, run the development server:
+I chose to create a quick product page that I built using NextJS, TailwindCSS, and the fakestoreapi. The functionality is left to be done at a later date. This project is mobile responsive and dynamic, as it has some animation and when the user clicks on the product in the product page, they are navigated to that products details page by an API fetch call that dynamically inserts its productId.<br /><br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I named this project "Simple Products" due to the naming of the bonus assignment (build a product page and host it on Vercel). Simple Products can easily have authentication added to it. I have already installed the next-auth package.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src='public/images/simple-products1.webp' alt='William Lowrimore' width='800' height='750' />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img src='public/images/simple-products2.webp' alt='William Lowrimore' width='800' height='350' />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+To try this project out, just click (a href) here for the deployed site.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[email](mailto://wlowrimore@gmail.com)<br />
+[linkedIn](https://www.linkedin.com/in/william-lowrimore-dev)<br />
+[github](https://www.github.com/wlowrimore)<br />
+[website](http://www.williamlowrimore.com)
